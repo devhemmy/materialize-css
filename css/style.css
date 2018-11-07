@@ -1,0 +1,21 @@
+header{
+      background: url(../img/head.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 800px;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+.carousel{
+  height: 220px;
+}
+
+.carousel-slider{
+  height: 350px;
+}
+.parallax-container {
+      height: 300px;
+    }

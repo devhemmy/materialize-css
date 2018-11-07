@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Hemmy Materialize CSS</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+
+      <nav class="transparent">
+        <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo brown-text text-darken-3">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons brown-text text-darken-3">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="brown-text text-darken-3" href="#gallery">Gallery</a></li>
+            <li><a class="brown-text text-darken-3" href="#me">Me</a></li>
+            <li><a class="brown-text text-darken-3" href="#contact">Contact</a></li>
+            <li><a href="#" class="btn-floating tooltipped btn-small brown darken-3" data-position="bottom" data-tooltip="I am a tooltip"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" class="btn-floating tooltipped btn-small brown darken-3" data-position="bottom" data-tooltip="I am a tooltip"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="btn-floating tooltipped btn-small brown darken-3" data-position="bottom" data-tooltip="I am a tooltip"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#me">Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+  </header>
+  <!-- photo / grid -->
+  <div class="container">
+    <div class="row">
+      <div class="col s6 m6 l4">
+        <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/head1.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#two!"><img src="img/head2.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#three!"><img src="img/head3.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#four!"><img src="img/head4.jpg" class="responsive-img"></a>
+      </div>
+      </div>
+      <div class="col s6 m6 l8">
+        <h2 class="indigo-text text-darken-4">Proejct1</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col s6 m6 l8">
+        <h2 class="indigo-text text-darken-4">Proejct2</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </p>
+      </div>
+      <div class="col s6 m6 l4">
+        <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/head1.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#two!"><img src="img/head2.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#three!"><img src="img/head3.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#four!"><img src="img/head4.jpg" class="responsive-img"></a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax"><img src="img/head3.jpg" class="responsive-img"></div>
+    </div>
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="me">
+      <div class="row">
+        <div class="col s12 l4">
+          <h2 class="indigo-text text-darken-4">What I do..</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+          <!-- tabs -->
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#photography" class="active indigo-text text-darken-4">Design</a>
+            </li>
+            <li class="tab col s6">
+              <a href="#editing" class="indigo-text text-darken-4">Develop</a>
+            </li>
+          </ul>
+          <div id="photography" class="col s12">
+              <p class="flow-text indigo-text text-darken-4">Design UI/UX</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+              <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+          </div>
+          <div id="editing" class="col s12">
+              <p class="flow-text indigo-text text-darken-4">Front-End Developer</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+              <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax"><img src="img/head4.jpg" class="responsive-img"></div>
+    </div>
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form>
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email">
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" id="date" class="datepicker">
+              <label for="date">Choose a date you need me for...</label>
+            </div>
+            <div class="input-field">
+              <p>Services required:</p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Photography</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Photo Editing</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+     <div class="container">
+       <div class="row">
+         <div class="col l6 s12">
+           <h5>About Me</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+         </div>
+         <div class="col l4 offset-l2 s12">
+           <h5 class="white-text">Connect</h5>
+           <ul>
+             <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+             <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+             <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+             <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="footer-copyright grey darken-4">
+       <div class="container center-align">&copy; 2018 Hemmy Site</div>
+     </div>
+   </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+  $('.sidenav').sidenav();
+  $('.carousel').carousel();
+  $('.parallax').parallax();
+   $('.tabs').tabs();
+   $('.datepicker').datepicker();
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+});
+  </script>
+</body>
+</html>
